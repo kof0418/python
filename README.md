@@ -1,1 +1,1 @@
-# python
+# 2024/9/14 Start learning python
