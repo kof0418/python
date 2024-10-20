@@ -75,6 +75,16 @@
 # for tuple in zip(x, y, z):
 #     print(tuple)
 
+# Dictionary Comprehensions
+# x = [1, 2, 3, 4]
+# x_squared_dict = {item: item ** 2 for item in x}
+# print(x_squared_dict)
+
+# Set Comprehensions
+x = [1, 2, 3, 4]
+x_squared_set = {item ** 2 for item in x if item > 2}
+print(x_squared_set)
+
 # Structural Pattern Matching example ( > 3.10 Support )
 # lang = input("你希望學什麼程式語言?")
 # match lang:
