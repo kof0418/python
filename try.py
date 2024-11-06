@@ -81,6 +81,45 @@
 # print("the list x is", x, ". Also, the list y is ", y)
 
 # if Example (a 如果裡面有 A，就會顯示)
-a = ["A", "B", "C"]
-if "A" in a:
-    print("A is in ", a)
+# a = ["A", "B", "C"]
+# if "A" in a:
+#     print("A is in ", a)
+
+# 9to9
+# def table9to9():
+#     for i in range(1, 10):
+#         for j in range(1, 10):
+#             print(f"{i} x {j} = {i * j}")
+# table9to9()
+
+# 排列從小到大
+# def findMin(lst):
+#     if len(lst) == 0:
+#         return "undefined"
+#     result = lst[0]
+#     for ele in lst:
+#         if ele < result:
+#             result = ele
+#     print(result)
+#     return result
+# # findMin([5, 2, 18, 3])
+
+# def mySort(myList):
+#     result_list = []
+#     while len(myList) > 0:
+#         min_element = findMin(myList)
+#         result_list.append(min_element)
+#         myList.remove(min_element)
+#     print(result_list)
+#     return result_list
+# mySort([17, 0, -3, 2, 1, 0.5])
+
+# 金字塔
+# def pyramid(n):
+#     space = n - 1
+#     star = 1
+#     for i in range(n):
+#         p rint(space * ' ' + star * '*')
+#         star += 2
+#         space -= 1
+# pyramid(25)
