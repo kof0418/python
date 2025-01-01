@@ -119,7 +119,7 @@
 #     space = n - 1
 #     star = 1
 #     for i in range(n):
-#         p rint(space * ' ' + star * '*')
+#         print(space * ' ' + star * '*')
 #         star += 2
 #         space -= 1
 # pyramid(25)
