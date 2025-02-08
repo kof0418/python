@@ -17,4 +17,5 @@
 # Python os 檔案操作：os_walk.py, os.py
 # Python random 隨機模組：random_test.py
 # Python RegEx 正規表示式 ：re_test.py
+# Python Requests 網頁請求：requests_test.py, soup_lxml.py, website_get_photo.py
 # Python yield 生成器：yield.py
